@@ -1,0 +1,50 @@
+body {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #FFFFFF;
+}
+
+.form-container {
+    padding: 30px;
+    border-radius: 7px;
+    box-sizing: inherit;
+    width: 25rem;
+    height: 70vh;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 6px 3px rgba(0, 0, 0, 0.09);
+    margin-top: 40px;
+}
+
+.form-container .form > button {
+    display: grid;
+    margin: 5px auto;
+    background-color: #008080;
+    color: white;
+}
+
+form label{
+    font : 20px 0.8em serif;
+    font-size: 0.9em;
+    text-transform: capitalize;
+}
+
+
+
+.footer{
+    background-color: #008080;
+    height: 120px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.footer p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+}

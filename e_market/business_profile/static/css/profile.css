@@ -1,0 +1,169 @@
+body {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #EEEEFF;
+    background-color:  #E7EAEA;
+}
+/*style the nav-bar */
+.top-bar {
+    background-color: #FFFFFF;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.top-bar p .img{
+    width: 15px;
+}
+
+.top-bar p:hover{
+    color : green;
+}
+
+
+/*style profile */
+
+.profile {
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.4);
+    height: 80vh;
+    width: 75vw;
+    margin-top: 50px;
+    position: relative;
+    left: 10%;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.profile .logo {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile .title {
+    background-color: white;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.4);
+    height: 60px;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 3.5%;
+    border: none;
+    border-radius: 6px;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    padding-top: 20px ;
+    font-size: large;  
+    width: fit-content;  
+    border-left: 1px #008080 solid;
+    border-top: 1px solid rgba(0, 0, 0, 0.09);
+}
+.profile .title:hover{
+    background-color: hsl(0, 0%, 24%);
+    color: white;
+}
+.profile .logo .img {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+}
+
+/*style side menu */
+
+.side-options {
+    background-color: transparent;
+    width: 280px;
+    margin-left: 10px;
+    height: 80vh;
+    position: absolute;
+    top: 110px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.side-options ul {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.side-options ul li {
+    margin-top: 15px;
+    border-radius: 3px;
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    padding-bottom: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+.side-options ul li a{
+    color: black;
+}
+
+
+.side-options ul .active-sd{
+    background-color: #008080;
+    color: white;
+}
+.side-options ul .active-sd:hover{
+    opacity: 0.7;
+}
+.side-options .stars {
+    height: 30px;
+    padding: 6px;
+    width: fit-content;
+}
+
+.side-options .stars .checked{
+    color: orange;
+}
+
+.launch {
+    margin-top: 40px;
+    height: 15rem;
+    width: 40rem;
+    border-radius: 8px;
+    background-color:  #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    left: -58px;
+}
+
+.launch .btn{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    display: grid;
+    margin: 30px auto;
+    position: relative;
+    top: 100px;
+}
+
+
+.launch .btn{
+    background-image: -webkit-linear-gradient(30deg, #ffffff 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #ffffff 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+.launch .btn:hover {
+    background-color: black;
+    background-position: 100%;
+    color: white;
+}
